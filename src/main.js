@@ -1,5 +1,6 @@
 import { template } from './template';
 import './styles.css';
+import $ from 'jquery';
 
 $(document).ready(function() {
   $('#template-form').submit(function(event) {
